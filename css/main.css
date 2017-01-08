@@ -1,0 +1,140 @@
+* {
+	color: #0000;
+}
+
+body {
+	background: none repeat scroll 00 #fff
+	color: #222;
+	font-family: arial, sans-serif;
+	margin: 0;	
+}
+
+a {
+	color:#222;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #222;
+	text-decoration: underline;
+}
+
+a.button:hover {
+	text-decoration: none;
+}
+
+/* Menu */
+
+.top-navigation {
+	height: 100px;
+}
+.top-navigation ul {
+    float: right;
+	margin-right: 25px;
+}
+.top-navigation ul li {
+	list-style: none;
+	display: inline-block;
+	text-align: right;
+	padding: 5px 10px 0 0;
+	vertical-align: bottom;
+	margin: 5px 5px 0 0;
+	font-size: 13px;
+}
+
+/* Search Box */
+
+.search-box {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    height: 2000px;
+}
+
+.search-box img{
+	padding: 142px 0 24px 0;
+	display: block;
+	margin: 0 auto;
+}
+
+.search-box form {
+    margin-top: 10px;
+}
+
+.search-box form input {
+    font: 16px arial,sans-serif;
+    line-height: 26px !important;
+    height: 26px !important;
+    padding: 5px;
+    width: 525px;
+}
+
+.search-buttons{
+	text-align: center;
+	padding-left: 0;
+	margin-top: 20px;
+}
+.search-buttons button{
+    background-color: #f5f5f5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 27px;
+    margin: 17px 6px;
+    padding: 0 12px;
+    display: inline-block;
+    cursor: pointer;
+}
+.search-button button:hover{
+	background-color:#f8f8f8;
+	border: 1px solid #c6c6c6;
+    box-shadow:0 1px 1px rgba(0,0,0,0.1);
+    color:#333;
+} 
+
+/* Footer */
+
+.bottom-site-links {
+	bottom: 0 !important;
+	position: absolute;
+	width:100%;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4; 
+}
+.left-site-links,
+.right-site-links{
+	margin: 0;
+}
+.left-site-links {
+	float:left;
+	padding-left:20px;
+}
+.right-site-links {
+	float:right;
+	padding-right:10px;
+}
+.left-site-links li, .right-site-links li{
+    color: gray;
+	list-style: none;
+	display: inline-block;
+	line-height: 40px;
+	padding: 5px 10px 0 0;
+	font-size: 13px;
+}
+.right-site-links li a:first-child {
+	padding-right:8px;
+}
+.left-site-links li:nth-child(2),
+.left-site-links li: nth-child(3){
+	margin-left:7px;
+}
+.left-site-links li a,
+.right-site-links li a{
+	color: #666;
+    margin: 2px 10px 0;
+    letter-spacing: 0.1px;
+    font-size: 14px;
+}
